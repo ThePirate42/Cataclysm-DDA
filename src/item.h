@@ -1487,7 +1487,7 @@ class item : public visitable
             int length = 0;
             /// The maximum length of the cable.
             int max_length = 2;
-            /// The cable's power capacity in watts, affects battery charge rate.
+            /// The cable's power capacity in milliwatts, affects battery charge rate.
             int charge_rate = 0;
             /// (this) out of 1.0 chance to successfully add 1 charge every charge interval.
             float efficiency = 0.0f;
